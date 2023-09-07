@@ -24,12 +24,24 @@ namespace Weekend
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            pnlMain.Visible = false;
+            pnlLogin.Visible = true;
         }
 
         private void pnlMain_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnBevestigLogin_Click(object sender, EventArgs e)
+        {
+            string wachtwoord = "BINGCHILLING";
+            string gebruikers = "BINGCHILLING";
+            string UserLogin = txtGebruikernaamInput.Text;
+            string WachLogin = txtWachtwoordLogin.Text;
+            if (WachLogin == wachtwoord && UserLogin == gebruikers)
+            {
+                MessageBox.Show("Login gelukt");
+            }
         }
     }
 }
