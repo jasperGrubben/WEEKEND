@@ -17,12 +17,17 @@ namespace Weekend
             InitializeComponent();
         }
 
-        private void btnRegisteren_Click(object sender, EventArgs e)
+        private void btnRegistatie_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnInloggen_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            pnlMain.Visible = false;
+        }
+
+        private void pnlMain_Paint(object sender, PaintEventArgs e)
         {
 
         }
