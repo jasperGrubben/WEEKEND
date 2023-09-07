@@ -35,7 +35,12 @@
             this.pnlMain = new System.Windows.Forms.Panel();
             this.btnRegistatie = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblGebruikers = new System.Windows.Forms.Label();
             this.pnlMain.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ietsToolStripMenuItem
@@ -67,6 +72,7 @@
             // pnlMain
             // 
             this.pnlMain.BackColor = System.Drawing.Color.DarkGray;
+            this.pnlMain.Controls.Add(this.panel1);
             this.pnlMain.Controls.Add(this.btnLogin);
             this.pnlMain.Controls.Add(this.btnRegistatie);
             this.pnlMain.ForeColor = System.Drawing.SystemColors.ButtonShadow;
@@ -96,6 +102,40 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.lblGebruikers);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Location = new System.Drawing.Point(387, 14);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(673, 572);
+            this.panel1.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(282, 110);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(217, 31);
+            this.textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(282, 176);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(217, 31);
+            this.textBox2.TabIndex = 1;
+            // 
+            // lblGebruikers
+            // 
+            this.lblGebruikers.AutoSize = true;
+            this.lblGebruikers.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGebruikers.Location = new System.Drawing.Point(117, 116);
+            this.lblGebruikers.Name = "lblGebruikers";
+            this.lblGebruikers.Size = new System.Drawing.Size(165, 25);
+            this.lblGebruikers.TabIndex = 2;
+            this.lblGebruikers.Text = "Gebruikernaam:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -106,6 +146,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.pnlMain.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -118,6 +160,10 @@
         private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnRegistatie;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblGebruikers;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
