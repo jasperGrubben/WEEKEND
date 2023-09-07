@@ -42,6 +42,7 @@ namespace Weekend
             if (WachLogin == wachtwoord && UserLogin == gebruikers)
             {
                 MessageBox.Show("Login gelukt");
+                lblErrorLogin.Text = "blayt";
             }
         }
     }
