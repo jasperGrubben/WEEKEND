@@ -34,6 +34,7 @@ namespace Weekend
 
         private void btnBevestigLogin_Click(object sender, EventArgs e)
         {
+            //tests
             string wachtwoord = "BINGCHILLING";
             string gebruikers = "BINGCHILLING";
             string UserLogin = txtGebruikernaamInput.Text;
