@@ -16,5 +16,15 @@ namespace Weekend
         {
             InitializeComponent();
         }
+
+        private void btnRegisteren_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInloggen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
