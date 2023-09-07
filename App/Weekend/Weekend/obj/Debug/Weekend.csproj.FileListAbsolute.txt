@@ -9,3 +9,14 @@ C:\school\wamp64\www\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.csproj.Genera
 C:\school\wamp64\www\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.csproj.CoreCompileInputs.cache
 C:\school\wamp64\www\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.exe
 C:\school\wamp64\www\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.pdb
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\bin\Debug\Weekend.exe.config
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\bin\Debug\Weekend.exe
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\bin\Debug\Weekend.pdb
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.Form1.resources
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.Properties.Resources.resources
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.csproj.GenerateResource.cache
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.exe
+C:\xampp\htdocs\Github\Challenge 4\WEEKEND\App\Weekend\Weekend\obj\Debug\Weekend.pdb
