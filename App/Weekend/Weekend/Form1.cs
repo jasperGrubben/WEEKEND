@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,6 +24,8 @@ namespace Weekend
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            pnlMain.Visible = false;
+        }
             pnlLogin.Visible = true;
         }
 
