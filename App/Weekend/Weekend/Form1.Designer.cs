@@ -33,15 +33,15 @@
             this.btnInloggen = new System.Windows.Forms.Button();
             this.btnRegisteren = new System.Windows.Forms.Button();
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.pnlLogin = new System.Windows.Forms.Panel();
-            this.lblErrorLogin = new System.Windows.Forms.Label();
-            this.btnBevestigLogin = new System.Windows.Forms.Button();
-            this.lblWachtwoord = new System.Windows.Forms.Label();
-            this.lblGebruikers = new System.Windows.Forms.Label();
-            this.txtWachtwoordLogin = new System.Windows.Forms.TextBox();
-            this.txtGebruikernaamInput = new System.Windows.Forms.TextBox();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.btnRegistatie = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.pnlLogin = new System.Windows.Forms.Panel();
+            this.txtGebruikernaamInput = new System.Windows.Forms.TextBox();
+            this.txtWachtwoordLogin = new System.Windows.Forms.TextBox();
+            this.lblGebruikers = new System.Windows.Forms.Label();
+            this.lblWachtwoord = new System.Windows.Forms.Label();
+            this.btnBevestigLogin = new System.Windows.Forms.Button();
+            this.lblErrorLogin = new System.Windows.Forms.Label();
             this.pnlMain.SuspendLayout();
             this.pnlLogin.SuspendLayout();
             this.SuspendLayout();
@@ -80,103 +80,14 @@
             this.pnlMain.Controls.Add(this.btnRegistatie);
             this.pnlMain.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.pnlMain.Location = new System.Drawing.Point(172, 83);
-            this.pnlMain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1464, 606);
+            this.pnlMain.Size = new System.Drawing.Size(1464, 605);
             this.pnlMain.TabIndex = 0;
             this.pnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMain_Paint);
             // 
-            // pnlLogin
-            // 
-            this.pnlLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlLogin.Controls.Add(this.lblErrorLogin);
-            this.pnlLogin.Controls.Add(this.btnBevestigLogin);
-            this.pnlLogin.Controls.Add(this.lblWachtwoord);
-            this.pnlLogin.Controls.Add(this.lblGebruikers);
-            this.pnlLogin.Controls.Add(this.txtWachtwoordLogin);
-            this.pnlLogin.Controls.Add(this.txtGebruikernaamInput);
-            this.pnlLogin.Location = new System.Drawing.Point(388, 13);
-            this.pnlLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pnlLogin.Name = "pnlLogin";
-            this.pnlLogin.Size = new System.Drawing.Size(674, 571);
-            this.pnlLogin.TabIndex = 1;
-            this.pnlLogin.Visible = false;
-            // 
-            // lblErrorLogin
-            // 
-            this.lblErrorLogin.AutoSize = true;
-            this.lblErrorLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblErrorLogin.Location = new System.Drawing.Point(276, 329);
-            this.lblErrorLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblErrorLogin.Name = "lblErrorLogin";
-            this.lblErrorLogin.Size = new System.Drawing.Size(0, 25);
-            this.lblErrorLogin.TabIndex = 5;
-            // 
-            // btnBevestigLogin
-            // 
-            this.btnBevestigLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnBevestigLogin.Location = new System.Drawing.Point(184, 256);
-            this.btnBevestigLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnBevestigLogin.Name = "btnBevestigLogin";
-            this.btnBevestigLogin.Size = new System.Drawing.Size(248, 50);
-            this.btnBevestigLogin.TabIndex = 4;
-            this.btnBevestigLogin.Text = "Bevestig";
-            this.btnBevestigLogin.UseVisualStyleBackColor = true;
-            this.btnBevestigLogin.Click += new System.EventHandler(this.btnBevestigLogin_Click);
-            // 
-            // lblWachtwoord
-            // 
-            this.lblWachtwoord.AutoSize = true;
-            this.lblWachtwoord.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblWachtwoord.Location = new System.Drawing.Point(140, 177);
-            this.lblWachtwoord.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblWachtwoord.Name = "lblWachtwoord";
-            this.lblWachtwoord.Size = new System.Drawing.Size(137, 25);
-            this.lblWachtwoord.TabIndex = 3;
-            this.lblWachtwoord.Text = "Wachtwoord:";
-            // 
-            // lblGebruikers
-            // 
-            this.lblGebruikers.AutoSize = true;
-            this.lblGebruikers.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblGebruikers.Location = new System.Drawing.Point(116, 115);
-            this.lblGebruikers.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblGebruikers.Name = "lblGebruikers";
-            this.lblGebruikers.Size = new System.Drawing.Size(165, 25);
-            this.lblGebruikers.TabIndex = 2;
-            this.lblGebruikers.Text = "Gebruikernaam:";
-            // 
-            // txtWachtwoordLogin
-            // 
-            this.txtWachtwoordLogin.Location = new System.Drawing.Point(282, 177);
-            this.txtWachtwoordLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtWachtwoordLogin.Name = "txtWachtwoordLogin";
-            this.txtWachtwoordLogin.Size = new System.Drawing.Size(216, 31);
-            this.txtWachtwoordLogin.TabIndex = 1;
-            // 
-            // txtGebruikernaamInput
-            // 
-            this.txtGebruikernaamInput.Location = new System.Drawing.Point(282, 110);
-            this.txtGebruikernaamInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtGebruikernaamInput.Name = "txtGebruikernaamInput";
-            this.txtGebruikernaamInput.Size = new System.Drawing.Size(216, 31);
-            this.txtGebruikernaamInput.TabIndex = 0;
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.Location = new System.Drawing.Point(248, 206);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(240, 150);
-            this.btnLogin.TabIndex = 1;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
             // btnRegistatie
             // 
-            this.btnRegistatie.Location = new System.Drawing.Point(948, 206);
-            this.btnRegistatie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistatie.Location = new System.Drawing.Point(949, 205);
             this.btnRegistatie.Name = "btnRegistatie";
             this.btnRegistatie.Size = new System.Drawing.Size(240, 150);
             this.btnRegistatie.TabIndex = 0;
@@ -184,16 +95,93 @@
             this.btnRegistatie.UseVisualStyleBackColor = true;
             this.btnRegistatie.Click += new System.EventHandler(this.btnRegistatie_Click);
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(247, 205);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(240, 150);
+            this.btnLogin.TabIndex = 1;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // pnlLogin
+            // 
+            this.pnlLogin.Controls.Add(this.lblErrorLogin);
+            this.pnlLogin.Controls.Add(this.btnBevestigLogin);
+            this.pnlLogin.Controls.Add(this.lblWachtwoord);
+            this.pnlLogin.Controls.Add(this.lblGebruikers);
+            this.pnlLogin.Controls.Add(this.txtWachtwoordLogin);
+            this.pnlLogin.Controls.Add(this.txtGebruikernaamInput);
+            this.pnlLogin.Location = new System.Drawing.Point(387, 14);
+            this.pnlLogin.Name = "pnlLogin";
+            this.pnlLogin.Size = new System.Drawing.Size(673, 572);
+            this.pnlLogin.TabIndex = 1;
+            this.pnlLogin.Visible = false;
+            // 
+            // txtGebruikernaamInput
+            // 
+            this.txtGebruikernaamInput.Location = new System.Drawing.Point(282, 110);
+            this.txtGebruikernaamInput.Name = "txtGebruikernaamInput";
+            this.txtGebruikernaamInput.Size = new System.Drawing.Size(217, 31);
+            this.txtGebruikernaamInput.TabIndex = 0;
+            // 
+            // txtWachtwoordLogin
+            // 
+            this.txtWachtwoordLogin.Location = new System.Drawing.Point(282, 176);
+            this.txtWachtwoordLogin.Name = "txtWachtwoordLogin";
+            this.txtWachtwoordLogin.Size = new System.Drawing.Size(217, 31);
+            this.txtWachtwoordLogin.TabIndex = 1;
+            // 
+            // lblGebruikers
+            // 
+            this.lblGebruikers.AutoSize = true;
+            this.lblGebruikers.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGebruikers.Location = new System.Drawing.Point(117, 116);
+            this.lblGebruikers.Name = "lblGebruikers";
+            this.lblGebruikers.Size = new System.Drawing.Size(165, 25);
+            this.lblGebruikers.TabIndex = 2;
+            this.lblGebruikers.Text = "Gebruikernaam:";
+            // 
+            // lblWachtwoord
+            // 
+            this.lblWachtwoord.AutoSize = true;
+            this.lblWachtwoord.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblWachtwoord.Location = new System.Drawing.Point(139, 176);
+            this.lblWachtwoord.Name = "lblWachtwoord";
+            this.lblWachtwoord.Size = new System.Drawing.Size(137, 25);
+            this.lblWachtwoord.TabIndex = 3;
+            this.lblWachtwoord.Text = "Wachtwoord:";
+            // 
+            // btnBevestigLogin
+            // 
+            this.btnBevestigLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnBevestigLogin.Location = new System.Drawing.Point(185, 255);
+            this.btnBevestigLogin.Name = "btnBevestigLogin";
+            this.btnBevestigLogin.Size = new System.Drawing.Size(248, 50);
+            this.btnBevestigLogin.TabIndex = 4;
+            this.btnBevestigLogin.Text = "Bevestig";
+            this.btnBevestigLogin.UseVisualStyleBackColor = true;
+            this.btnBevestigLogin.Click += new System.EventHandler(this.btnBevestigLogin_Click);
+            // 
+            // lblErrorLogin
+            // 
+            this.lblErrorLogin.AutoSize = true;
+            this.lblErrorLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblErrorLogin.Location = new System.Drawing.Point(277, 329);
+            this.lblErrorLogin.Name = "lblErrorLogin";
+            this.lblErrorLogin.Size = new System.Drawing.Size(0, 25);
+            this.lblErrorLogin.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1800, 892);
+            this.ClientSize = new System.Drawing.Size(1840, 791);
             this.Controls.Add(this.pnlMain);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "Rekensysteem";
+            this.Text = "Form1";
             this.pnlMain.ResumeLayout(false);
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
